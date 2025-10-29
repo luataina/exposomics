@@ -8,8 +8,12 @@ The code was used in this paper: High-throughput screening of estrogen receptor 
 PROJECT STRUCTURE
 
 The dataset is composed of human VM7Luc4E2 cells exposed to 24 POPs compounds and 16 human exposomes. The molar concentration of the compounds ranged from 1 nM to 10 µM. Experiments were performed in 3 batches. The dataset was curated in an Excel file. 
+
 Code/analysis.R contains the code for statistical analysis (linear mixed-effects model, ANOVA, and post-hoc) and will generate:
+
 (1) plots of all compounds (img/plots.pdf)
+
 (2) the statistical output (data/fit_linear_mixed_model_output.xlsx). 
+
 All analyses were performed in R.
 
